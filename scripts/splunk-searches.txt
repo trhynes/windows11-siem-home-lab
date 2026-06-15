@@ -1,0 +1,14 @@
+# Failed login attempts
+index=* EventCode=4625
+
+# Failed logins by account
+index=* EventCode=4625
+| stats count by Account_Name
+
+# Failed logins over time
+index=* EventCode=4625
+| timechart count
+
+# Top failed login sources
+index=* EventCode=4625
+| stats count by IpAddress
