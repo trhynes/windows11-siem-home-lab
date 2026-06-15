@@ -1,3 +1,21 @@
+# Lab Environment
+
+Host Machine:
+- MacBook Pro 2020 M1
+- macOS
+
+Virtualization:
+- UTM
+
+Guest Operating System:
+- Windows 11 Pro
+
+Lab Purpose:
+- Security monitoring
+- Event log analysis
+- Vulnerability management
+- Incident investigation
+
 # Lab Overview
 
 ## Objective
